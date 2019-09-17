@@ -31,6 +31,6 @@
   },
   "defaultProject": "heroku-demo-2",
   "cli": {
-    "packageManager": "npm"
+    "packageManager": "ng"
   }
 }

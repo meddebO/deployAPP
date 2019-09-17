@@ -19,6 +19,7 @@ import { HerokuDemo2EntityModule } from './entities/entity.module';
 import * as moment from 'moment';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent, ActiveMenuDirective, ErrorComponent } from './layouts';
+import { TtComponent } from './tt/tt.component';
 
 @NgModule({
   imports: [
@@ -39,7 +40,7 @@ import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent
     HerokuDemo2EntityModule,
     HerokuDemo2AppRoutingModule
   ],
-  declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, ActiveMenuDirective, FooterComponent],
+  declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, ActiveMenuDirective, FooterComponent, TtComponent],
   providers: [
     {
       provide: HTTP_INTERCEPTORS,
